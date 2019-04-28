@@ -17,7 +17,7 @@ client.on('message', message => {
 	console.info("Message:  " + message.content + " - User:  " + message.author);
 
 	if (message.content.startsWith('ping') && message.channel.id === '309774255560589312') {
-		message.channel.send('pong testing update from other machine');
+		message.channel.send('pong watchtower');
 	}
 
 	// run js with !e
